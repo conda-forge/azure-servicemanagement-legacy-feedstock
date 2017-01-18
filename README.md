@@ -11,6 +11,18 @@ Summary: Microsoft Azure Legacy Service Management Client Library for Python
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/azure-servicemanagement-legacy-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/azure-servicemanagement-legacy-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/azure-servicemanagement-legacy-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/azure-servicemanagement-legacy-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/azure-servicemanagement-legacy-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/azure-servicemanagement-legacy-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/azure-servicemanagement-legacy/badges/version.svg)](https://anaconda.org/conda-forge/azure-servicemanagement-legacy)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/azure-servicemanagement-legacy/badges/downloads.svg)](https://anaconda.org/conda-forge/azure-servicemanagement-legacy)
+
 Installing azure-servicemanagement-legacy
 =========================================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `azure-servicemanagement-legacy` a
 ```
 conda search azure-servicemanagement-legacy --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/azure-servicemanagement-legacy-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/azure-servicemanagement-legacy-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/azure-servicemanagement-legacy-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/azure-servicemanagement-legacy-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/azure-servicemanagement-legacy-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/azure-servicemanagement-legacy-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/azure-servicemanagement-legacy/badges/version.svg)](https://anaconda.org/conda-forge/azure-servicemanagement-legacy)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/azure-servicemanagement-legacy/badges/downloads.svg)](https://anaconda.org/conda-forge/azure-servicemanagement-legacy)
 
 
 Updating azure-servicemanagement-legacy-feedstock
