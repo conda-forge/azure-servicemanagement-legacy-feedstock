@@ -7,7 +7,7 @@ package:
 source:
   fn: azure-servicemanagement-legacy-{{ version }}.zip
   url: https://pypi.io/packages/source/a/azure-servicemanagement-legacy/azure-servicemanagement-legacy-{{ version }}.zip
-  md5: c883ff8fa3d4f4cb7b9344e8cb7d92a9feca2aa5efd596237aeea89e5c10981d
+  md5: 4c97f1c9013d9caba6628488c7e24dd2
   
 
 build:
