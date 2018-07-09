@@ -14,14 +14,15 @@ Summary: Microsoft Azure Legacy Service Management Client Library for Python
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/azure-servicemanagement-legacy-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/azure-servicemanagement-legacy-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/azure-servicemanagement-legacy-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/azure-servicemanagement-legacy-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/azure-servicemanagement-legacy-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/azure-servicemanagement-legacy-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/azure-servicemanagement-legacy-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/azure-servicemanagement-legacy-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/azure-servicemanagement-legacy/badges/version.svg)](https://anaconda.org/conda-forge/azure-servicemanagement-legacy)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/azure-servicemanagement-legacy/badges/downloads.svg)](https://anaconda.org/conda-forge/azure-servicemanagement-legacy)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-azure--servicemanagement--legacy-green.svg)](https://anaconda.org/conda-forge/azure-servicemanagement-legacy) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/azure-servicemanagement-legacy.svg)](https://anaconda.org/conda-forge/azure-servicemanagement-legacy) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/azure-servicemanagement-legacy.svg)](https://anaconda.org/conda-forge/azure-servicemanagement-legacy) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/azure-servicemanagement-legacy.svg)](https://anaconda.org/conda-forge/azure-servicemanagement-legacy) |
 
 Installing azure-servicemanagement-legacy
 =========================================
