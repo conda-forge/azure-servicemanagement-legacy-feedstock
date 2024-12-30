@@ -6,30 +6,32 @@ package:
 
 source:
   fn: azure-servicemanagement-legacy-{{ version }}.zip
-  url: https://pypi.io/packages/source/a/azure-servicemanagement-legacy/azure-servicemanagement-legacy-{{ version }}.zip
+  url: https://pypi.org/packages/source/a/azure-servicemanagement-legacy/azure-servicemanagement-legacy-{{ version }}.zip
   md5: 4c97f1c9013d9caba6628488c7e24dd2
   
 
 build:
   noarch: python
-  script: python -m pip install --no-deps --ignore-installed .
-  number: 1
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  number: 2
 
 requirements:
   host:
     - pip
-    - python
+    - python {{ python_min }}
     - setuptools
     - azure-common
     - requests
     - pyopenssl
   run:
-    - python
+    - python >={{ python_min }}
     - azure-common
     - requests
     - pyopenssl
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - azure
     - azure.servicemanagement
